@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+  }
+  .navbar{
+    background-color: black;
+  }
+  .container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo img{
+    margin-top: 5px;
+    width: 50%;
+    padding: 10px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin-top: 15px;
+  }
+  a{
+    color: aliceblue;
+    text-decoration: none;
+     text-transform: uppercase;
+     margin-right: 15px;
+  }
+  .portfolio{
+    background-color: beige;
+    text-align: center;
+}
+.containerr {
+  width: 85%;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.portfolio-item{
+width: 30%;
+margin-left: 25px;
+}
+.port{
+  max-width: 100%;
+}
